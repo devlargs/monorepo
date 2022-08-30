@@ -7,7 +7,7 @@
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
-    "build:fliptop-admin": "npx nx run fliptop-admin:build"
+    "build:fliptop-admin": "npx nx run fliptop-admin:build --prod"
   },
   "private": true,
   "dependencies": {
