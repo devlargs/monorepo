@@ -2,6 +2,7 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "fliptop-admin": "apps/fliptop-admin"
+    "fliptop-admin": "apps/fliptop-admin",
+    "fliptop-api": "apps/fliptop-api"
   }
 }
