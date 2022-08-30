@@ -6,7 +6,8 @@
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "build:fliptop-admin": "npx nx run fliptop-admin:build"
   },
   "private": true,
   "dependencies": {
