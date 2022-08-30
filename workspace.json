@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "fliptop-admin": "apps/fliptop-admin",
+    "fliptop-admin-e2e": "apps/fliptop-admin-e2e"
+  }
+}
