@@ -1,12 +1,11 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
-import './styles.css';
 
 function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Welcome to brapph!</title>
+        <title>Welcome to battlerapph!</title>
       </Head>
       <main className="app">
         <Component {...pageProps} />

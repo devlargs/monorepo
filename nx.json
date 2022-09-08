@@ -15,21 +15,14 @@
     "default": {
       "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": [
-          "build",
-          "lint",
-          "test",
-          "e2e"
-        ],
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
         "accessToken": "MTI3NGJmZDMtNDgxNy00Y2IwLTk3ZWYtZDYyYzg3NDc4M2U3fHJlYWQtd3JpdGU="
       }
     }
   },
   "targetDefaults": {
     "build": {
-      "dependsOn": [
-        "^build"
-      ]
+      "dependsOn": ["^build"]
     }
   },
   "generators": {
@@ -45,5 +38,5 @@
       }
     }
   },
-  "defaultProject": "brapph"
+  "defaultProject": "battlerapph"
 }

@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/brapph",
+  "sourceRoot": "apps/battlerapph",
   "projectType": "application",
   "targets": {
     "build": {
@@ -8,12 +8,12 @@
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
-        "root": "apps/brapph",
-        "outputPath": "dist/apps/brapph"
+        "root": "apps/battlerapph",
+        "outputPath": "dist/apps/battlerapph"
       },
       "configurations": {
         "development": {
-          "outputPath": "apps/brapph"
+          "outputPath": "apps/battlerapph"
         },
         "production": {}
       }
@@ -22,16 +22,16 @@
       "executor": "@nrwl/next:server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "brapph:build",
+        "buildTarget": "battlerapph:build",
         "dev": true
       },
       "configurations": {
         "development": {
-          "buildTarget": "brapph:build:development",
+          "buildTarget": "battlerapph:build:development",
           "dev": true
         },
         "production": {
-          "buildTarget": "brapph:build:production",
+          "buildTarget": "battlerapph:build:production",
           "dev": false
         }
       }
@@ -39,14 +39,14 @@
     "export": {
       "executor": "@nrwl/next:export",
       "options": {
-        "buildTarget": "brapph:build:production"
+        "buildTarget": "battlerapph:build:production"
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/brapph"],
+      "outputs": ["coverage/apps/battlerapph"],
       "options": {
-        "jestConfig": "apps/brapph/jest.config.ts",
+        "jestConfig": "apps/battlerapph/jest.config.ts",
         "passWithNoTests": true
       }
     },
@@ -54,7 +54,7 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["apps/brapph/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["apps/battlerapph/**/*.{ts,tsx,js,jsx}"]
       }
     }
   },
