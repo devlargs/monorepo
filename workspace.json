@@ -1,8 +1,0 @@
-{
-  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
-  "version": 2,
-  "projects": {
-    "battlerapph-website": "apps/battlerapph-website",
-    "fliptop-admin": "apps/fliptop-admin"
-  }
-}
