@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "brapph": "apps/brapph",
+    "brapph-e2e": "apps/brapph-e2e"
+  }
+}
